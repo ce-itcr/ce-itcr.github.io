@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CE-ITCR | The Imitation Game</title>
+    <meta name="description" content="CE-ITCR WEBSITE">
+    <meta name="keywords" content="ce-itcr, Ingeniería en Computadores, Instituto Tecnológico de Costa Rica">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript">WebFont.load({
+            google: {
+                families: ["Montserrat:400,700", "Roboto:300,regular,500"]
+            }
+        });
+    </script>
+    <script src="../../js/modernizr-2.7.1.js" type="text/javascript"></script>
+    <link href="../../img/icon.png" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navigation-bar w-nav" data-animation="default" data-collapse="medium" data-contain="1"
+        data-duration="400">
+        <div class="w-container">
+            <a class="brand-link w-nav-brand" href="../../index.html">
+                <h1 class="brand-text">CE-ITCR</h1>
+            </a>
+            <nav class="navigation-menu w-nav-menu" role="navigation">
+                <a class="navigation-link w-nav-link" href="../../index.html">Portafolio</a>
+                <a class="navigation-link w-nav-link" href="../../about.html">Acerca de</a>
+            </nav>
+            <div class="hamburger-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="w-container">
+            <div class="photo-row w-row">
+                <div class="w-col w-col-4">
+                    <h1 class="photo-page-title">Canny Edge Detector</h1>
+                    <div class="photo-info-text">Jun 14, 2023</div>
+                    <div class="description-text w-richtext">
+                          
+                        <p>Una aplicación de Canny Edge Detection en ensamblador para x86 podría beneficiarse del calendarizador dinámico por hardware por las siguientes razones:</p>
+                            
+                            <ul>
+                                <li>Intensidad computacional: El algoritmo de Canny Edge Detection implica operaciones intensivas de procesamiento de imágenes, como convoluciones y cálculos de gradiente. Estas operaciones requieren un alto uso de recursos de cómputo y, por lo tanto, podrían beneficiarse de la capacidad del calendarizador dinámico para programar y ejecutar instrucciones de manera eficiente.
+                                </li>
+                                <li>Paralelismo a nivel de instrucción: Los algoritmos de Canny Edge Detection a menudo se pueden descomponer en instrucciones independientes y paralelas que operan en diferentes píxeles o vecindarios de la imagen. El calendarizador dinámico puede aprovechar este paralelismo a nivel de instrucción para ejecutar múltiples instrucciones en paralelo, utilizando unidades de ejecución en el procesador, lo que puede acelerar la velocidad de procesamiento.
+                                </li>
+                                <li>Acceso a memoria optimizado: El algoritmo de Canny Edge Detection implica el acceso a múltiples píxeles y cálculos basados en vecindarios de píxeles. El calendarizador dinámico puede ayudar a optimizar el acceso a memoria mediante técnicas como la especulación de carga y la anticipación de datos, reduciendo la latencia y mejorando el rendimiento general.
+                                </li>
+                                <li>Uso eficiente de recursos: El calendarizador dinámico puede realizar decisiones de calendarización en tiempo real, optimizando el uso de recursos como las unidades funcionales del procesador, las cachés y las tuberías de ejecución. Esto puede ayudar a minimizar los cuellos de botella y la ociosidad de los recursos, maximizando así la eficiencia y el rendimiento de la aplicación de Canny Edge Detection.
+                                </li>
+                            </ul>
+
+                            
+                            <p>Tomando en cuenta lo anterior, el calendarizador dinámico por hardware puede mejorar el rendimiento de una aplicación de Canny Edge Detection en ensamblador para x86 al optimizar la ejecución de instrucciones, aprovechar el paralelismo a nivel de instrucción, optimizar el acceso a memoria y utilizar eficientemente los recursos del procesador.
+
+                        </p>
+
+
+                        <a href="https://github.com/ce-itcr/canny-edge-detector/tree/master">
+                            <p>Link al Proyecto</p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="w-col w-col-8">
+                    <div class="w-richtext">
+
+                        <figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100"
+                            class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
+                            <div>
+                                <img src="../../img/projects_preview/canny/ultra-goat.png">
+                            </div>
+                            <figcaption>Resultado Esperado I</figcaption>
+                        </figure>
+
+                        <figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100"
+                            class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
+                            <div>
+                                <img src="../../img/projects_preview/canny/goat.png">
+                            </div>
+                            <figcaption>Resultado Esperado II</figcaption>
+                        </figure>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="w-container">
+                <div>
+                    <a class="social-icon-link w-inline-block" href="https://github.com/ce-itcr"><img
+                            src="../../img/github-logo.svg" width="20"></a>
+                </div>
+            </div>
+
+            <div class="footer-text">CE-ITCR</div>
+        </div>
+
+        <script src="../../js/jquery.min.js" type="text/javascript"></script>
+        <script src="../../js/webflow.js" type="text/javascript"></script>
+        <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+
+</html>
